@@ -15,3 +15,9 @@ st.dataframe(df)
 st.write("Visualizando os dados linha a linha:")
 for row in df.itertuples():
     st.write(f"{row[1]} tem um {row[2]}")
+    df = conn.read(
+    worksheet="Sheet1",
+    ttl="10m",
+    usecols=[0, 1],
+    nrows=3,
+)
