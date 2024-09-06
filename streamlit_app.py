@@ -1,7 +1,7 @@
 
 # .streamlit/secrets.toml
 [connections.gsheets]
-spreadsheet = "https://drive.google.com/file/d/1qG-QjfUwsXLg6eiNpOZk5teLo6Dlsb0r/view?usp=sharing"
+spreadsheet = "https://docs.google.com/spreadsheets/d/1t2Ly9Qga99EpjUryL9pAMJU2DZxent426gVy-y0gNis/edit?usp=sharing"
 
 import streamlit as st
 from streamlit_gsheets import GSheetsConnection
