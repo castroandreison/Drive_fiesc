@@ -2,8 +2,9 @@ import streamlit as st
 import pygsheets
 import pandas as pd
 
-# Autenticar com o pygsheets usando o arquivo de credenciais correto
-gc = pygsheets.authorize(service_file="C:/Users/an053116/Documents/FIESC/cred.json")
+# Autenticar com o pygsheets usando o caminho seguro das credenciais
+credentials_path = st.secrets["gsheets"]["credentials_path"]
+gc = pygsheets.authorize(service_file=credentials_path)
 
 # URL do Google Sheets
 sheet_url  = "https://docs.google.com/spreadsheets/d/1t2Ly9Qga99EpjUryL9pAMJU2DZxent426gVy-y0gNis/"
