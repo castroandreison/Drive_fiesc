@@ -1,23 +1,22 @@
 import streamlit as st
-from streamlit_gsheets import GSheetsConnection
+import pygsheets
+import pandas as pd
 
-# Criação de um objeto de conexão.
-conn = st.connection("gsheets", type=GSheetsConnection)
+# Autenticar com o pygsheets usando o arquivo de credenciais correto
+gc = pygsheets.authorize(service_file="C:/Users/an053116/Documents/FIESC/cred.json")
 
-# Ler os dados da planilha.
-df = conn.read()
+# URL do Google Sheets
+sheet_url  = "https://docs.google.com/spreadsheets/d/1t2Ly9Qga99EpjUryL9pAMJU2DZxent426gVy-y0gNis/"
+spreadsheet = gc.open_by_url(sheet_url)
 
-# Exibir os dados no Streamlit.
-st.write("Dados da Planilha:")
-st.dataframe(df)
+# Selecionar a primeira aba da planilha (ou escolha pelo nome da aba)
+worksheet = spreadsheet[0]
 
-# Exibir os dados linha por linha.
-st.write("Visualizando os dados linha a linha:")
-for row in df.itertuples():
-    st.write(f"{row[1]} tem um {row[2]}")
-    df = conn.read(
-    worksheet="Sheet1",
-    ttl="10m",
-    usecols=[0, 1],
-    nrows=3,
-)
+# Ler os dados da planilha e selecionar colunas específicas (colunas 0 e 5)
+df = worksheet.get_as_df()  # Ou usar parameters como start, end para delimitar as colunas
+
+# Selecionar colunas 0 e 5
+df_selected = df.iloc[:, [0,1,2,3,4, 5]]
+
+# Exibir os dados no Streamlit
+st.dataframe(df_selected)
