@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "igneous-primacy-435113-a9",
+  "private_key_id": "cad064c5d14d60a2d20d67695aa019a38e4aa695",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCPOlJrbwgpGZQp\nTT3glh9qtUg2ezwYejrCf17peyfej95T+//xrlNpZMphAuEO00L/M3cMQk5yv3UB\nJ0nteP+DiPh/x47PR1fDshFDxQBtcYM69D08CLiWwLtmUJG5qhSZ6vBZs/gpQGdH\nQ76YA19FT0Xc74+JDP9ZFbevVwrNUdDNA6VoAKoh9zcRj2m70squr4yu7MljaERu\nrxV28PmL3BLiTxWASOzaTCzbwKO4XRWWZF09nIDbcrMAKY+ctCjRG6ccY9dz//JD\nX0m5c6p5QIZ06Zk4wrkcar5NedKknq/NguJtK042xyHSBdzKKNa0YV366hc6mEBv\nbbDahC2FAgMBAAECggEAAS88S0Mp0B00CntnDZpwPBOvuzOdtZ4dKkqfYFLya3bJ\nIeytmzQT4IVC3zaE4fiBT1b/nwxVVcGbmBzZEau0gUP6uiPOXIx8f1PTrLnOXRlZ\nOn2WnA5+aFDDu/7ilaSAcx1sS3GflcfAkuhOhTdR7GLRcxhQGZQP8I6rbDnODxCg\n/JncNl5aZmSW67u/CUaVBCE/N+kR42NLYeDo8rHE0GUTMkN38DZhx9ZyJCYPZY1o\nv5aTHSq1SeotYjtSsXPJYaUALw6Jsvhz1SaAFlyd6+M7x8ELMBBGtV+rz9wkHdhm\nWVPqqzaHODZREH6Bc6yMrb0JnYFvIWV2p5a+if1QAQKBgQDA8bh/ou2iEKyirTZP\nY9KMXgsvlVT8YxWR5Svou9nCpdvPWe1bqeJltBOJRBbTwtmfrszOGalJ/dav0AEy\nX924b/DSazl8ikC1/bD49CYGogZMQvsYBMFLxaMFfVa8Z9ZgQsZ/3xrGRYNjvg1F\ncpJsvyOefdZ32RRz7vWNDVpWAQKBgQC+CS5sgq6JIdPgwY2jx6ZdJvQFpUPSc/TQ\nNj7FAZnO6OMsOptBErTv5tKgeki6akT4vWcM5qHCYSr8YePpn8yZRKW3YXlZQYcf\nLPZ4Ce4YvS0ouZJtyYNsj0eiXOl5bprgM7PifmKC3pc2nDQhLRPivLI+wnwtoXhw\nX7DCJ+t/hQKBgQC3EGGSUJ8RJqr1iky+VKL/ZXdNhW1mLgjYLU1U+27oXP/Ko7Mu\nRmi1QH9MvNq/vt9Gv844OmbB+mMI2t1X01eGWEdxDiU0AeTWB8cy3kt5/Z7mGqMs\nrc5Mu08qtTpndkoTeSfnSWKY/nlkWH01CDjfjxcXmKO1gLUELpSyaRnuAQKBgFOx\neXeiqjmM42KF+9pYsGUwJaJi4ZbLKNOWQFjFVrbwjDRLb1reYT+SucqhcGxhJxUh\nXUQqQq1329WhSx32GcaanB1CWY48tMS/KaE+RlUw47We3OVrLW1fQN456z1mv+Dk\nBGJI5Rvb6l7Lto2x66MdFadcQhJanc9n5VHtAON9AoGAYjvPQAl/B2NtwRMrUpHM\nOoH8Dn0D4qZcS06iYfoaJnbJeurYc1n6LnUBpaDdXT+0XaPTfdeNHo/uvbbmWalB\naukRHKBAAvi/bdmymtra4IQT2nYXwoxASlXW+B/Kq6VQZHsy0boklqHpJAu8GZN7\nYMUyAMmRg9JKJZk2Y7cA8xU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "projeto@igneous-primacy-435113-a9.iam.gserviceaccount.com",
+  "client_id": "112575584022432138204",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/projeto%40igneous-primacy-435113-a9.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
