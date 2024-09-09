@@ -12,7 +12,7 @@ df = conn.read()
 for row in df.itertuples():
     st.write(f"{row.name} has a :{row.pet}:")
     df = conn.read(
-    worksheet="Sheet1",
+    worksheet="Página1",
     ttl="10m",
     usecols=[0, 1],
     nrows=3,
