@@ -4,7 +4,7 @@ import pandas as pd
 
 # Autenticar com o pygsheets usando o arquivo de credenciais correto
 # Defina o caminho para o arquivo de credenciais
-gc = pygsheets.authorize(service_file='config/credentials.json')
+gc = pygsheets.authorize(service_file='/.gitignore.json')
 
 # Abrir a planilha pelo Google Sheets URL (pegue o ID do documento a partir do URL)
 sheet_url = "https://docs.google.com/spreadsheets/d/1t2Ly9Qga99EpjUryL9pAMJU2DZxent426gVy-y0gNis/"
