@@ -10,4 +10,4 @@ df = conn.read("streamlit-bucket/fiesc.csv", input_format="csv", ttl=600)
 
 # Print results.
 for row in df.itertuples():
-    st.write(f"{row.Owner} has a :{row.Pet}:")
+    st.write(f"{row.n} has a :{row.amplitude}:")
