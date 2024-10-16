@@ -3,11 +3,11 @@ import streamlit as st
 from streamlit_gsheets import GSheetsConnection
 
 # Create GSheets connection
-conn = st.connection("0", type=GSheetsConnection)
+conn = st.connection("gsheets", type=GSheetsConnection)
 
 # Read Google WorkSheet as DataFrame
 df = conn.read(
-    worksheet="Example 1",
+    worksheet="0",
     usecols=[
         0,
         1,
